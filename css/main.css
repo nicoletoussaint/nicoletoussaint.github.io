@@ -139,7 +139,10 @@ margin-top: 210px;
 #about {
   background-color: #EDEEEF;
 }
-
+.about-text p {
+  font-size: 18px;
+  font-family: roboto;
+}
 .headings {
 text-align: center;
 font-size: 50px;
