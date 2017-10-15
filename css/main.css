@@ -14,7 +14,7 @@ html, body {
 .image{
   width:320px;
   height: auto;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 
@@ -22,7 +22,8 @@ html, body {
 
 .animation {
   margin-top: 30px;
-  margin-left: 570px;
+  margin: auto;
+  width: 300px;
   font: normal 40px/50px Montserrat, roboto;
   color: #999;
 }
@@ -105,19 +106,15 @@ html, body {
 
 
 /*TITLEPAGE*/
-
-.page-title {
+ .page-title {
   background-color: #ffffff;
   padding: 50px 0px;
-  height: 750px;
   width: auto;
 }
 
 .title {
-font-size: 100px;
 font-family: roboto;
 text-align: center;
-margin-top: 210px;
 }
 
 @keyframes wiggle {
@@ -155,7 +152,6 @@ padding-bottom: 40px;
   width: 300px;
   height: 300px;
   margin-bottom: 30px;
-
 }
 
 
@@ -173,6 +169,7 @@ h3{
   display: block;
   margin: 0 auto;
 }
+
 
 /*WORK PAGE*/
 
@@ -201,7 +198,6 @@ h3{
     font-size: 100px;
     text-align: center;
     margin-top: 50px;
-    left: 45%;
 }
 #contact h4 {
   font-family: roboto;
@@ -283,3 +279,32 @@ h3{
     right: 2%;
     bottom: 25%;
   }
+
+}
+
+
+
+
+
+/* Mobile Phones */
+@media (min-width: 300px) { 
+.title {font-size: 60px; margin-top: 150px;} 
+.glyphicon.glyphicon-envelope {left:30%;}
+.page-title {height: 680px;}
+
+
+/* Tablets */
+@media (min-width : 768px) {
+.title {font-size: 60px; margin-top: 250px;} 
+.glyphicon.glyphicon-envelope {left:43%;}
+.page-title { height:700px;}
+}
+
+/* Desktops */
+@media (min-width : 992px) {
+.title {font-size: 100px; margin-top: 210px;}
+.glyphicon.glyphicon-envelope {left: 45%;}
+.page-title {height: 750px;}
+}
+
+
